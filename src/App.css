@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -11,28 +11,63 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}*/
+
+body {
+  font-family: "Source Sans Pro", san-serif !important;
+  background: #f3f3f3;
+  color: #232528;
+}
+.text-title {
+  /*letter-spacing: 3em;*/
+  text-transform: uppercase;
+}
+.text-blue {
+  color: #2a2a72;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-bright {
+  color: #009ffd;
+}
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: #232528;
+  border-radius: 0 !important;
+  border: 0.1rem solid #232528 !important;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-black:hover {
+  background: #232528 !important;
+  color: #f3f3f3 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #ffa400;
+}
+
+.btn-modal {
+  text-transform: capitalize;
+  font-size: 1.4 rem;
+  background: transparent;
+  border: 0.05rem solid #009ffd;
+  border-color: #009ffd;
+  color: #009ffd;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+  margin: 0.2rem 0.5rem 0.2rem 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-modal:hover {
+  background: lightblue;
+  color: blue;
+}
+
+.btn-modal:focus {
+  outline: none;
 }

@@ -1,0 +1,9 @@
+export const INCREMENT = "INCREMENT";
+export const DECREMENT = "DECREMENT";
+export const REMOVE_ITEM = "REMOVE_ITEM";
+export const REMOVE_CART = "REMOVE_CART";
+export const STORE_RESULT = "STORE_RESULT";
+export const STORE_TOTAL = "STORE_TOTAL";
+export const DELETE_RESULT = "DELETE_RESULT";
+export const STORE_PRODUCTS = "STORE_PRODUCTS";
+export const CHECKOUT = "CHECKOUT";
