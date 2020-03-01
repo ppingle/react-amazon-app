@@ -14,28 +14,46 @@
 }*/
 
 body {
-  font-family: "Source Sans Pro", san-serif !important;
+  font-family: "Source Sans Pro", san-serif;
   background: #f3f3f3;
   color: #232528;
 }
+.fa-amazon {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
 .text-title {
-  /*letter-spacing: 3em;*/
   text-transform: uppercase;
 }
 .text-blue {
   color: #2a2a72;
 }
+.fa-cart-plus {
+  color: white;
+  font-family: "Source Sans Pro", san-serif;
+  border-color: white;
+}
+.cart-style {
+  border-color: white !important;
+}
 
+.header {
+  background: #f34d35 !important;
+}
+.navbar-nav {
+  color: white;
+}
 .text-bright {
   color: #009ffd;
 }
 .btn-black {
   background: transparent;
   text-transform: capitalize;
-  font-size: 0.8rem !important;
+  font-size: 0.8rem;
   color: #232528;
-  border-radius: 0 !important;
-  border: 0.1rem solid #232528 !important;
+  border-radius: 0;
+  border: 0.1rem solid #232528;
 }
 
 .btn-black:hover {
@@ -70,4 +88,8 @@ body {
 
 .btn-modal:focus {
   outline: none;
+}
+
+.nav-link {
+  color: blue;
 }

@@ -15,8 +15,11 @@ const productSummary = ({ product, closeModal }) => {
         <h3 className="text-muted">{formatPrice(product.price)}</h3>
         <div className="modal-footer">
           <Link to="/">
-            <ButtonContainer onClick={() => closeModal()}>
-              Continue Shoppinng
+            <ButtonContainer
+              className="btn-modal-style"
+              onClick={() => closeModal()}
+            >
+              Continue Shopping
             </ButtonContainer>
           </Link>
           <Link to="/cart">

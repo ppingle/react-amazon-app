@@ -1,4 +1,4 @@
-body {
+/*body {
   margin: 0;
   font-family: "Source Sans Pro", sans-serif !important;
   -webkit-font-smoothing: antialiased;
@@ -6,11 +6,8 @@ body {
   padding: 20px 0 0 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
 .fa-amazon {
   color: white;
   font-size: 20px;
-}
+  font-weight: bold;
+}*/

@@ -6,7 +6,7 @@ import { ButtonContainer } from "../Button/button";
 //import "../../css/materialize.css";
 const Navbar = () => {
   return (
-    <NavWrapper className="navbar navbar-expand-sm navbar-dark px-sm-5">
+    <NavWrapper className="navbar navbar-expand-sm header px-sm-5">
       <Link to="/">
         <i className="fa fa-amazon"></i>
       </Link>
@@ -19,9 +19,9 @@ const Navbar = () => {
       </ul>
 
       <Link to="/cart" className="ml-auto">
-        <ButtonContainer>
+        <ButtonContainer className="cart-style">
           <span className="mr-2">
-            <i className="fa fa-cart-plus">My Cart</i>
+            <i className="fa fa-cart-plus">&nbsp;Cart</i>
           </span>
         </ButtonContainer>
       </Link>

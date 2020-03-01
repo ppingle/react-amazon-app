@@ -49,7 +49,10 @@ class CartTotals extends Component {
                 <span className="text-title">total :</span>
                 <strong>{this.formatPrice(this.props.carttotal)}</strong>
               </h5>
-              <button className="btn-primary" onClick={this.handleCheckout}>
+              <button
+                className="btn btn-primary btn-success"
+                onClick={this.handleCheckout}
+              >
                 Checkout
               </button>
             </div>
