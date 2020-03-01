@@ -10,22 +10,26 @@ const productSummary = ({ product, closeModal }) => {
   return (
     <div className="container">
       <div id="modal" className="text-center text-capitalize">
-        <h5>Item</h5>
         <h4>{product.title}</h4>
         <h3 className="text-muted">{formatPrice(product.price)}</h3>
         <div className="modal-footer">
           <Link to="/">
-            <ButtonContainer
-              className="btn-modal-style"
+            <button
+              className="btn btn-outline-primary text-uppercase mb-2 px-2"
+              type="button"
               onClick={() => closeModal()}
             >
               Continue Shopping
-            </ButtonContainer>
+            </button>
           </Link>
           <Link to="/cart">
-            <ButtonContainer onClick={() => closeModal()}>
+            <button
+              className="btn btn-outline-warning text-uppercase mb-2 px-2"
+              type="button"
+              onClick={() => closeModal()}
+            >
               Go to Cart
-            </ButtonContainer>
+            </button>
           </Link>
         </div>
       </div>

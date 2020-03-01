@@ -44,6 +44,7 @@ body {
 .navbar-nav {
   color: white;
 }
+
 .text-bright {
   color: #009ffd;
 }
@@ -92,4 +93,10 @@ body {
 
 .nav-link {
   color: blue;
+}
+
+.modal-header {
+  padding: 9px 15px;
+  border-bottom: 1px solid #eee;
+  background-color: #0480be;
 }

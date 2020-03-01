@@ -10,7 +10,7 @@ class Cart extends Component {
       <section>
         {this.props.cartitems.length ? (
           <React.Fragment>
-            <div className="font-weight-bold text-center text-uppercase mx-auto text-title">
+            <div className="font-weight-bold text-center text-uppercase mx-auto text-title pb-3">
               Your Cart
             </div>
             <CartColumns />
